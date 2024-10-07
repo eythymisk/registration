@@ -22,11 +22,11 @@ Then to run the executables use this format:
 
 Registration:
 
-./Test<fixed><moving>
+./Test <fixed_file> <moving_file>
 
 Reconstruction: 
 
-./Test<folder_path>
+./Test <folder_path>
 
 Additional comments:
 Currently, this tool supports point clouds in PCD format without color and for single-precision points. We plan to extend its capabilities in the near future, including additional formats, color information, and different precision levels.
