@@ -29,8 +29,9 @@ Reconstruction:
 ./Test <folder_path>
 
 Additional comments:
+
 Currently, this tool supports point clouds in PCD format without color and for single-precision points. We plan to extend its capabilities in the near future, including additional formats, color information, and different precision levels.
-You can refer to this README file to check the current status of this work in real time. For any feedback, you can reach out at ekoukoulis@ece.upatras.gr.
+You can refer to this README file to check the current status of this work in real time. For any feedback, you can reach out at ekoukoulis@ece.upatras.gr. We can also provide you some data to test the algorithms.
 
 
 
