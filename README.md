@@ -20,9 +20,9 @@ This command is specific to macOS, where development was done. However, it can b
 
 Then to run the executables use this format: 
 
-Registration:
+**Registration:**
 
-./Test <fixed_file> <moving>
+./Test <fixed> <moving>
 
 Reconstruction: 
 
