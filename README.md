@@ -22,7 +22,7 @@ Then to run the executables use this format:
 
 Registration:
 
-./Test <fixed> <moving>
+./Test <fixed_file> <moving>
 
 Reconstruction: 
 
