@@ -6,6 +6,8 @@ The **Registration Tool** performs the registration of two point clouds. It take
 
 The **Reconstruction Tool** reconstructs a scene from a set of point clouds or point cloud sequence. It takes as input the name of the folder containing the point clouds and outputs a single point cloud which contains the merged information of all the registered scans. It also outputs two txt files. A file of relative poses, which contains the relative pose of each point cloud relative to its previous point cloud, and a file of absolute poses, which contains the absolute pose of each point, which in this case is its pose relative to the the first point cloud in the sequence.
 
+For the Registration Tool, you have three hyperparameters you can tune. **downsample_grid_step** is the voxel size for the voxel grid downsampling in the preprocessing step, **K** is the number of knn of each point to use for analyzing its neighborhood and **epsilon** is a factor for adjusting the anisotropy of error. For the Reconstuction tool, you can also adjust the final resolution of the output map using the **map_grid_step** parameter.
+
 This project depends on the **Point Cloud Library** (PCL) for point cloud processing. 
 
 The software is based on our paper **"Unleashing the Power of Generalized Iterative Closest Point for Swift and Effective Point Cloud Registration"**. You can acces the paper [here](https://ieeexplore.ieee.org/abstract/document/10647551).
